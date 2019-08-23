@@ -1,0 +1,64 @@
+{
+  "name": "fast-arch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhendykur2/node-fast-arch.git"
+  },
+  "author": "Dhendy Kurniawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhendykur2/node-fast-arch/issues"
+  },
+  "homepage": "https://github.com/dhendykur2/node-fast-arch#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-joi-validator": "^2.0.1",
+    "joi": "^14.3.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-config-google": "^0.13.0",
+    "nodemon": "^1.19.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "google"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "rules": {
+      "max-len": [
+        1,
+        100,
+        2
+      ],
+      "no-console": 0,
+      "object-curly-spacing": [
+        1,
+        "always"
+      ],
+      "new-cap": 0,
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "require-jsdoc": 0
+    }
+  }
+}
