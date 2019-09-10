@@ -1,8 +1,8 @@
 # Node-Fast-Arch
-Node Fast Architecture for fast development.
+Node Boilerplate Fast Architecture for fast development.
 
 # About
-I Use this architecture for prototyping like hackathon.
+Scalable Nodejs Architecture and fast development architecture, best for hackathon.
 
 ```console
 npm install
